@@ -1,0 +1,267 @@
+
+A = [[1, 2], [3, 4]]
+B = [[2, 0], [1, 3]]
+
+print "A + B:"
+A + B
+
+
+print "A - B:"
+A - B
+print "A * B:"
+A * B
+print "A[ T ]:"
+A[ T ]
+print "A[I]:"
+A[I]
+print "B[T]:"
+B[T]
+print "2 * A:"
+2 * A
+print "A + 2:"
+A + 2
+print "A + B[T]:"
+A + B[T]
+
+a=1
+b=2
+
+print "a=1, b=2, a+b:"
+a+b
+
+"hola como estas"
+
+print "2*4:"
+2*4
+
+print "5-3:"
+5-3
+
+print "8/2:"
+8/2
+
+print "5+3:"
+5+3
+
+print "sen(0):"
+sen(0)
+print "cos(0):"
+cos(0)
+print "tan(0):"
+tan(0)
+
+print "8^3:"
+8^3
+print "49^2:"
+49^2
+print "81^4:"
+81^4
+
+print "2**3:"
+2**3
+
+print "3**2:"
+3**2
+
+print "10%3:"
+10%3
+
+print "15%2:"
+15%2
+
+
+print "!true:"
+!true
+print "true:"
+true
+print "!false:"
+!false
+
+
+print "FOR:"
+for i in 1 to 5:
+    print i
+end
+
+
+print "IF:"
+if 3>4 then
+    print "si"
+else
+    print "no"
+end
+
+
+
+print "FOR AND IF:"
+for i in 1 to 5:
+    if i % 2 == 0 then
+        print "even"
+    else
+        print "odd"
+    end
+end
+
+
+print "WHILE:"
+x = 0
+while x <= 5 do
+    print x
+    x = x + 1
+end
+
+print "LISTA:"
+
+lista = [1, 2, 3, 4, 5]
+
+print lista
+
+lista.append(6)
+
+lista.len()
+
+lista.index(4)
+
+
+lista.remove(1)
+
+lista.pop()
+print lista
+
+new = ["hola", 7, 8, 9, 10]
+
+print new
+
+
+print "TUPLA:"
+
+pt = (1, 2, 3, 4, 5)
+
+print pt
+
+
+
+
+print "ARREGLO:"
+array = [[1,2],[3,4]]
+print array
+
+print "DICCIONARIO:"
+
+
+
+print "DICCIONARIO:"
+dic = { 1: "hola", 2: "que", 3: "haces" }
+print dic
+print "GET KEY QUE"
+dic.get_key("que")
+print "GET VALUE 1"
+dic.get_value(1)
+
+print "ADD ENTRY 4"
+dic.add_entry(4,"?")
+
+print "REMOVE ENTRY 4"
+dic.remove_entry(4)
+
+tets = { 9: "hola", 8: "que", 7: "haces" }
+print tets
+
+
+print "FUNCION:"
+e=5
+f=8
+
+print "e*f"
+def suma(e, f):
+    resultado = e * f
+    return resultado
+end
+
+suma(e,f)
+
+
+
+print "comparacion:"
+def comp(e,f):
+
+    if e>f then
+       print "mayor"
+    else
+       print "menor"
+    end
+end
+comp(3,5)
+
+
+
+print "prueba factorial:"
+factorial(5)
+
+
+
+
+data={"W": [1, 2, 3, 4], "X": [5, 6, 7, 8], "Y": [9, 10, 11, 12]}
+
+
+print "DATAFRAME:"
+
+df = DataFrame (data)
+print "df:"
+print df
+
+print "head:"
+df.head()
+
+print "mean:"
+df.mean()
+
+print "desc:"
+df.describe()
+
+print "series:"
+df.series("W")
+
+print "GRAFICAS:"
+
+
+
+barras=DataFrame ({"Category": ["A", "B", "C", "D"], "Values": [23, 17, 35, 29]})
+print "Barras:"
+barras.plot(bar)
+
+
+puntos=DataFrame ({"X": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],"Y": [5, 3, 9, 6, 7, 4, 8, 5, 6, 7]})
+print "Puntos:"
+puntos.plot(scatter)
+
+
+
+caja=DataFrame ({"A": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "B": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11],  "C": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12]})
+print "Caja:"
+caja.plot(box)
+
+
+print "CREAR CSV:"
+caja.csv("datos.csv")
+
+print "LEER CSV:"
+alm.leer_csv("prueba.csv")
+
+alm.describe()
+
+alm.plot(bar)
+
+lineas=DataFrame ({"A": [1, 3, 5, 7, 9, 11, 13, 15, 17, 19], "B": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20], "C": [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]})
+print "Lineas:"
+lineas.plot(line)
+
+
+histogra=DataFrame ({"Data": [1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 7, 8, 9, 9, 9, 10]})
+print "Histograma:"
+histogra.plot(hist)
+
+
+
+
+
