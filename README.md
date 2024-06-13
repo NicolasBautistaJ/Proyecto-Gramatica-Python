@@ -1,7 +1,7 @@
 # Proyecto-Gramatica-Python
 
 
-Integrantes= Sara Romero y Nicolas Bautista
+# Integrantes= Sara Romero y Nicolas Bautista
 
 Ejecucion
 
